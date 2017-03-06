@@ -9,7 +9,14 @@ cost_matrix_diagnostic.py
 
 This script is....
 
+more information can be found within...
+
 
 
 Recommended Citation:
+
     Gaboardi, James D. 2017. cost_matrix_diagnostic. https://github.com/jGaboardi/cost_matrix_diagnostic.
+
+
+
+
