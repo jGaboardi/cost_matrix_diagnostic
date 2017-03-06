@@ -1,0 +1,9 @@
+
+
+At the xxxxxxxxx level of cost matrix calculation between Post Offices (origins) and Block Group Centroids (destinations) there are ** 8 ** instances of unexplained local increases in travel time as connector density increases accounting for 86.0 minutes of network travel time. The instances of increase are broken down by count and increased time as follows:
+       e.g. [(connector, count)] -- [(1, 0), (2, 5), (3, 0), (4, 3), (5, 0)]
+       e.g. [(connector, time)]  -- [(1, 0.0), (2, 55.0), (3, 0.0), (4, 31.0), (5, 0.0)]
+
+As connectors are added the lowest cost travel time should never increase from any origin destination, it should only either decrease or remain constant.
+However, total network travel time DOES decrease each time a connector is added:
+       e.g. [(connector, total time)]  -- [(1, 84.0), (2, 81.0), (3, 81.0), (4, 77.0), (5, 77.0)]
